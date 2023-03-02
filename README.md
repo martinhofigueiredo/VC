@@ -6,5 +6,13 @@ The data set wont be uploaded because size but, these noteboos are mostly trial 
 
 | # |                 Lecture                                   | Status |
 |---| --------------------------------------------------------- |  ----  |
-| 1 |[Images and Pixels](/2_Lecture_Images%20and%20Pixels.ipynb)|   ✔️   |
-| 2 |[Filters](/3_Lecture_Filters.ipynb)                        |   ✔️   |
+| 1 |[Hands-on Python](/1_HandsOnPython.ipynb)                  |   ✔️   |
+| 2 |[Convolution Exercices](/1_Convolution_wExercises.ipynb)   |   ✔️   |
+| 3 |[Linear Algebra w/ Numpy](/1_LinearAlgebraNumpy.ipynb)     |   ❌   |
+| 4 |[Images and Pixels](/2_Lecture_Images%20and%20Pixels.ipynb)|   ❌   |
+| 5 |[Filters](/3_Lecture_Filters.ipynb)                        |   ❌   |
+| 6 |                                                           |        |
+
+
+
+## [📓 Notes](/notes.md)
