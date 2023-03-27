@@ -7,3 +7,4 @@ RUN sudo apt-get update \
     && sudo pip install opencv-python\
     && sudo pip install numpy \
     && sudo pip install matplotlib \
+    && sudo pip install pandas \
