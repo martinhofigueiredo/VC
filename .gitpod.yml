@@ -1,2 +1,11 @@
+
 image:
   file: .gitpod.Dockerfile
+vscode:
+  extensions:
+    - ms-toolsai.jupyter-renderers
+    - ms-toolsai.jupyter-keymap
+    - ms-toolsai.vscode-jupyter-cell-tags
+    - ms-toolsai.jupyter
+    - ms-toolsai.vscode-jupyter-powertoys
+    - ms-toolsai.vscode-jupyter-slideshow
