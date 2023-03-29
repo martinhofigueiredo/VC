@@ -1,4 +1,5 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full-vnc
 
-RUN sudo apt-get install -y python3-opencv
-RUN pip install opencv-python
+RUN sudo apt-get update \
+ && sudo apt-get install -y libgl1 \
+ && rm -rf /var/lib/apt/lists/*
