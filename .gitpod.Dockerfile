@@ -1,9 +1,11 @@
 FROM gitpod/workspace-full
 
 # Install custom tools, runtime, etc.
-RUN sudo apt-get update \
-    && pip install --upgrade pip \
-    && sudo pip install opencv-python\
-    && sudo pip install numpy \
-    && sudo pip install matplotlib \
-    && sudo pip install pandas \
+RUN apt-get update
+RUN pip install --upgrade pip
+RUN pip install numpy
+RUN pip install matplotlib
+RUN pip install pandas
+
+RUN apt-get update && apt-get install -y python3-opencv
+RUN pip install opencv-python
