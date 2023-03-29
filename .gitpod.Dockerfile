@@ -1,7 +1,6 @@
 FROM gitpod/workspace-full
 
 # Install custom tools, runtime, etc.
-RUN apt-get update
 RUN pip install --upgrade pip
 RUN pip install numpy
 RUN pip install matplotlib
