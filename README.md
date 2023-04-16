@@ -19,5 +19,6 @@ The data set wont be uploaded because size but, these noteboos are mostly trial 
 |#| __Assigments__ |Status |
 |---|------------|---|
 |1|[Q&A M&M](/assignment1/Assignment1_VC.ipynb)||
+|2|[Estimation of apparent Motion]()|
 
 ## [📓 Notes](/notes.md)
