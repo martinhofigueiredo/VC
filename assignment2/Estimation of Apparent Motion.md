@@ -1,4 +1,4 @@
-# __Project 1 – Estimation of the apparent motion.__ 
+# __Project 1 – Estimation of the apparent motion__ 
 Visual motion perception from a moving observer is the most often encountered case in real life
 situations. It is a complex and challenging problem, although, it can promote the arising of new
 applications.
