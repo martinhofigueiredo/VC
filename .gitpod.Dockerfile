@@ -5,4 +5,5 @@ RUN sudo apt-get update \
  && pip install numpy \
  && pip install torch \
  && pip install torchvision \
+ && pip install matplotlib \
  && pip install opencv-python
