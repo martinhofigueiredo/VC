@@ -6,4 +6,5 @@ RUN sudo apt-get update \
  && pip install torch \
  && pip install torchvision \
  && pip install matplotlib \
+ && pip install ipympl \
  && pip install opencv-python

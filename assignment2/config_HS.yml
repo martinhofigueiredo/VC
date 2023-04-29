@@ -1,0 +1,11 @@
+# Input path
+input_path: '/dataset/eval-data/Army/'
+
+# Horn-Schunck tuning parameters
+alpha: 10.0
+num_iterations: 100
+epsilon: 0.01
+
+# Gaussian pyramid parameters
+num_levels: 4
+pyramid_scale: 0.5
