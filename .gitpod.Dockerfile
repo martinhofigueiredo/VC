@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full
 RUN sudo apt-get update \
- && sudo apt-get install -y libgl1 \
+ && sudo apt-get install -y libgl1 ffmpeg\
  && pip install --upgrade pip \
  && pip install numpy \
  && pip install torch \
