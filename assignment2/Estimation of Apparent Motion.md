@@ -68,3 +68,16 @@ up some parameters. The algorithm optimizes the parameters by considering the co
 - https://learnopencv.com/optical-flow-in-opencv/
 - [Lucas Kanade](https://sandipanweb.wordpress.com/2018/02/25/implementing-lucas-kanade-optical-flow-algorithm-in-python/)
 
+```mermaid
+flowchart LR
+    A[Ingest Footage] -->|mp4 or mpegs| B{Multi Channel?}
+    B -->|Yes| C[Split into Channels]
+    B -->|No| D[Gray]-->H
+    C --> E[R]-->H
+    C --> F[G]-->H
+    C --> G[B]-->H
+    H{Multi Resolution?}-->|Yes|I[n Pyramid DownSampling Average]-->K
+    H-->|No|J[One Shot]-->K
+    K{algo} -->|HornShunck| M((FLOW))
+    K -->|LucasKanade| M
+```
