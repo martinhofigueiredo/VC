@@ -2,3 +2,4 @@ classes/cifar10_root
 assignment2/dataset/other-data/*
 assignment2/dataset/eval-data/*
 assignment2/dataset/other-gt-flow/*
+*.flo
