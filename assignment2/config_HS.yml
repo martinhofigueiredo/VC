@@ -1,5 +1,5 @@
 # Input path
-input_path: '/dataset/other-data/RubberWhale/'
+input_path: '/dataset/other-data/Urban2/'
 
 # Horn-Schunck tuning parameters
 alpha: 10.0
