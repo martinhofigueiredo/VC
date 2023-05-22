@@ -1,5 +1,5 @@
 # Input path
-input_path: '\dataset\slow_traffic_small.mp4'
+input_path: '/dataset/slow_traffic_small.mp4'
 
 # Feature detector parameters
 max_corners: 100
