@@ -1,5 +1,5 @@
 # Input path
-input_path: '\dataset\other-data\Urban2'
+input_path: '\dataset\Forest_15_3b_Videvo.mov'
 
 # Feature detector parameters
 max_corners: 100
