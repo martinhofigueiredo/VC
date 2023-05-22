@@ -1,11 +1,11 @@
 # Input path
-input_path: '/dataset/eval-data/Army/'
+input_path: '/dataset/other-data/RubberWhale/'
 
 # Horn-Schunck tuning parameters
 alpha: 10.0
-num_iterations: 100
+num_iterations: 1
 epsilon: 0.01
 
 # Gaussian pyramid parameters
-num_levels: 4
+num_levels: 1
 pyramid_scale: 0.5

@@ -1,5 +1,5 @@
 # Input path
-input_path: '\dataset\other-data\Beanbags'
+input_path: '\dataset\eval-data\Army'
 
 # Feature detector parameters
 max_corners: 100
