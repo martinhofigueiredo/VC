@@ -1,17 +1,17 @@
 # Input path
-input_path: '\dataset\eval-data\Army'
+input_path: '\dataset\other-data\Beanbags'
 
 # Feature detector parameters
-max_corners: 500
-quality_level: 0.01
-min_distance: 10
-block_size: 3
+max_corners: 100
+quality_level: 0.3
+min_distance: 7
+block_size: 7
 
 # Lucas-Kanade optical flow parameters
-window_size: 21
-max_level: 3
-max_iterations: 30
-epsilon: 0.01
+window_size: 15
+max_level: 2
+max_iterations: 10
+epsilon: 0.03
 
 # RANSAC parameters
 ransac_threshold: 3.0
