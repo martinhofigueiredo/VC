@@ -1,5 +1,8 @@
 # Input path
-input_path: '\dataset\Forest_15_3b_Videvo.mov'
+input_path: '/dataset/Forest_15_3b_Videvo.mp4'
+
+# Output Path
+output_path: 'flow_lk.flo'
 
 # Feature detector parameters
 max_corners: 100
