@@ -4,6 +4,8 @@ RUN sudo apt-get update \
  && pip install --upgrade pip \
  && pip install -U ipykernel \
  && pip install numpy \
+ && pip install flowvid \
+ && pip install imageio \
  && pip install wget \
  && pip install torch \
  && pip install torchvision \
