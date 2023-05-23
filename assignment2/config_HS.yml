@@ -1,11 +1,11 @@
 # Input path
-input_path: '/dataset/other-data/Urban2/'
+input_path: '/dataset/other-data/Urban2'
 
 # Horn-Schunck tuning parameters
 alpha: 10.0
 num_iterations: 1
 epsilon: 0.01
-
+multichannel: false
 # Gaussian pyramid parameters
 num_levels: 1
 pyramid_scale: 0.5
