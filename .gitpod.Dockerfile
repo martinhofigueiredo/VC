@@ -7,6 +7,7 @@ RUN sudo apt-get update \
  && pip install flowvid \
  && pip install imageio \
  && pip install wget \
+ && pip install scipy \
  && pip install pandas \
  && pip install torch \
  && pip install torchvision \
